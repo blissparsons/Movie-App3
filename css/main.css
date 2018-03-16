@@ -1,0 +1,90 @@
+/* FlexBox */
+
+@media (min-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: #ffde37;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
+
+.flex-container > div {
+  padding: 10px;
+  width: 707px;
+  margin: 10px;
+}
+
+/* Div Styling */
+
+.header {
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  align-self: flex-start;
+  padding-left: 8px;
+  margin-bottom: 4px;
+}
+
+.content {
+  align-self: flex-start;
+  flex-flow: row wrap;
+}
+
+.poster {
+  display: block;
+  max-width: 50%;
+  max-height: 10%;
+  margin: 0 auto;
+  box-shadow: 40px 40px 40px #001b44;
+}
+
+.splash-page {
+  background-color: #ffde37;
+  margin: 200px;
+  padding: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+/* Font and Link Styling */
+
+h1 {
+  font-family: "avenir next", avenir, sans-serif;
+  font-weight: bold;
+  font-size: 6vw;
+  line-height: 5px;
+  text-shadow: 90px 40px #001b44;
+}
+
+h2 {
+  font-size: 18vw;
+  text-shadow: 20px 0px #e7040f;
+}
+
+h3 {
+  font-size: 15px;
+  text-shadow: 20px 13px #001b44;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #ff4136;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff4136;
+}
+
+/* selected link */
+a:active {
+  color: #fbf1a9;
+}
