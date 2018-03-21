@@ -36,10 +36,10 @@
   align-self: flex-start;
 }
 
-.content {
+/* .content {
   align-self: flex-start;
   flex-flow: row wrap;
-}
+} */
 
 .poster {
   display: block;
