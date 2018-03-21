@@ -11,52 +11,18 @@
   }
 }
 
-.flex-container > div {
-  width: 800px;
+/* Styling */
+
+.shadow-5 {
+  box-shadow: 4px 4px 8px 0px #001b44;
 }
-
-/* Div Styling */
-
-.splash-page {
-  background-color: #ffde37;
-  margin: 200px;
-  padding: 20px;
-  margin-left: 500px;
-  margin-right: 500px;
-}
-
-.logo {
-  flex-direction: column;
-}
-
-.the-films {
-  flex-direction: row;
-  width: 100%;
-  height: 500px;
-  align-self: flex-start;
-}
-
-/* .content {
-  align-self: flex-start;
-  flex-flow: row wrap;
-} */
-
-.poster {
-  display: block;
-  max-width: 50%;
-  max-height: 10%;
-  margin: 0 auto;
-  box-shadow: 40px 40px 40px #001b44;
-}
-
-/* Font and Link Styling */
 
 h1 {
   font-family: "avenir next", avenir, sans-serif;
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 9vw;
   line-height: 5px;
-  text-shadow: 90px 40px #001b44;
+  text-shadow: 80px 50px #001b44;
 }
 
 h3 {
