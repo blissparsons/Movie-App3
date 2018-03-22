@@ -5,8 +5,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: #ffde37;
-    justify-content: center;
     flex-flow: row wrap;
   }
 }
@@ -14,7 +12,7 @@
 /* Styling */
 
 .shadow-5 {
-  box-shadow: 4px 4px 8px 0px #001b44;
+  box-shadow: 10px 20px 20px 10px #001b44;
 }
 
 h1 {
@@ -27,7 +25,7 @@ h1 {
 
 h3 {
   font-size: 15px;
-  text-shadow: 20px 13px #001b44;
+  text-shadow: 20px 12px #001b44;
 }
 
 /* unvisited link */
@@ -42,7 +40,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #ff4136;
+  color: white;
 }
 
 /* selected link */
