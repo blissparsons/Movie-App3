@@ -4,28 +4,33 @@
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     flex-flow: row wrap;
   }
 }
 
 /* Styling */
 
-h1 {
-  font-family: "avenir next", avenir, sans-serif;
-  font-weight: bold;
-  font-size: 9vw;
-  line-height: 5px;
-  text-shadow: 80px 50px #001b44;
+@media (min-width: 600px) {
+  h1 {
+    font-family: "avenir next", avenir, sans-serif;
+    font-weight: bold;
+    font-size: 9vw;
+    line-height: 5px;
+    text-shadow: 80px 50px #001b44;
+  }
 }
 
-h2 {
-  font-size: 25px;
+@media (min-width: 600px) {
+  h2 {
+    font-size: 1.5vw;
+  }
 }
 
-h3 {
-  font-size: 15px;
-  text-shadow: 20px 12px #001b44;
+@media (min-width: 600px) {
+  h3 {
+    font-size: 1.5vw;
+    text-shadow: 20px 12px #001b44;
+  }
 }
 
 .celebrate {
